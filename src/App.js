@@ -5,7 +5,11 @@ import cheerAudio from "./cheer.mp3";
 
 class App extends Component {
   state = {
-    target: new Date(this.props.target).getTime()
+    target: this.props.target.getTime(),
+    days: 0,
+    hours: 0,
+    minutes: 0,
+    seconds: 0
   };
 
   componentDidMount = () => {
