@@ -1,0 +1,20 @@
+.segment {
+  background-color: #151515;
+  border-radius: 2vmin;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+  width: 100%;
+}
+
+.segment__number {
+  font-size: 10vmin;
+  font-weight: 700;
+}
+
+.segment__unit {
+  font-weight: 300;
+  color: #999;
+  margin-top: 0.75em;
+}
