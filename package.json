@@ -1,7 +1,11 @@
 {
-  "name": "count-down",
-  "version": "0.1.0",
   "private": true,
+  "repository": "github:simmo/count-down",
+  "license": "MIT",
+  "author": {
+    "name": "Mike Simmonds",
+    "url": "https://simmo.me"
+  },
   "dependencies": {
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
