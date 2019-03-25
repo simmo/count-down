@@ -1,0 +1,18 @@
+.app {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  font-size: 3vmin;
+  text-align: center;
+  padding: 5vmin;
+}
+
+.countdown {
+  width: 100%;
+}
+
+.countdown + .countdown {
+  margin-top: 3rem;
+}

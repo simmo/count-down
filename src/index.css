@@ -14,5 +14,11 @@ body {
   margin: 0;
   padding: 0;
   line-height: 1;
-  font-family: "Ubuntu", sans-serif;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
 }
