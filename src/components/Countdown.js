@@ -13,15 +13,15 @@ export default function Countdown({ emoji, name, when }) {
   const isDone = useMemo(() => difference < 1000, [difference])
   const days = useMemo(
     () => (isDone ? 0 : Math.floor(difference / MS_IN_DAYS)),
-    [isDone, hours]
+    [isDone, difference]
   )
   const hours = useMemo(
     () => (isDone ? 0 : Math.floor((difference % MS_IN_DAYS) / MS_IN_HOURS)),
-    [isDone, minutes]
+    [isDone, difference]
   )
   const minutes = useMemo(
     () => (isDone ? 0 : Math.floor((difference % MS_IN_HOURS) / MS_IN_MINUTES)),
-    [isDone, seconds]
+    [isDone, difference]
   )
   const seconds = useMemo(
     () => (isDone ? 0 : Math.floor((difference % MS_IN_MINUTES) / 1000)),
