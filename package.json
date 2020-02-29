@@ -9,7 +9,7 @@
   "dependencies": {
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
-    "react-scripts": "2.1.8",
+    "react-scripts": "3.4",
     "react-spring": "^8.0.18"
   },
   "scripts": {
