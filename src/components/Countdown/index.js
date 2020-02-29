@@ -1,7 +1,7 @@
 import React, { useMemo, useState } from 'react'
-import useInterval from '../hooks/useInterval'
+import useInterval from '../../hooks/useInterval'
 
-import style from './countdown.module.css'
+import style from './styles.module.css'
 
 const MS_IN_MINUTES = 1000 * 60
 const MS_IN_HOURS = MS_IN_MINUTES * 60

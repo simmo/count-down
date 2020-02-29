@@ -1,19 +1,19 @@
 import React from 'react'
 import { animated, useTrail, config } from 'react-spring'
-import Countdown from './Countdown'
+import Countdown from '../Countdown'
 
-import style from './app.module.css'
+import style from './styles.module.css'
 
 const dates = [
   {
-    emoji: '🎢',
-    name: 'Legoland',
-    when: new Date(2019, 3, 13, 9),
+    emoji: '🐮',
+    name: 'Dorset',
+    when: new Date(2020, 4, 8, 9, 0),
   },
   {
     emoji: '☀️',
-    name: 'Holiday',
-    when: new Date(2019, 7, 12, 6),
+    name: 'Ibiza',
+    when: new Date(2020, 7, 6, 9, 20),
   },
 ]
 
