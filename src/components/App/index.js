@@ -6,14 +6,9 @@ import style from './styles.module.css'
 
 const dates = [
   {
-    emoji: '🐮',
-    name: 'Dorset',
-    when: new Date(2020, 4, 8, 9, 0),
-  },
-  {
-    emoji: '☀️',
-    name: 'Ibiza',
-    when: new Date(2020, 7, 6, 9, 20),
+    emoji: '🎢',
+    name: 'Chessington',
+    when: new Date('2020-08-29T08:30:00'),
   },
 ]
 
