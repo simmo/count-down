@@ -30,7 +30,7 @@ function App() {
   return (
     <div className={style.app}>
       {dates.map((date, index) => (
-        <animated.div className={style.countdown} style={toStyle(trail[index])}>
+        <animated.div key={date} className={style.countdown} style={toStyle(trail[index])}>
           <Countdown {...date} />
         </animated.div>
       ))}

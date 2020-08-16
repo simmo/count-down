@@ -48,7 +48,7 @@ export default function Countdown({ emoji, name, when }) {
             { unit: 'minute', value: minutes },
             { unit: 'second', value: seconds },
           ].map(({ unit, value }) => (
-            <li className={style.segment}>
+            <li key={unit} className={style.segment}>
               <span className={style.label}>{value}</span>
               <span className={style.unit}>
                 {unit}
